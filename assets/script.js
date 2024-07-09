@@ -7,7 +7,8 @@ const p = document.querySelector('.number')
 const inp = document.querySelector('.inp')
 const btn = document.querySelector('.btn');
 const h1 = document.querySelector('.box>.row>.details>h1');
- 
+const p1 = document.querySelector('.box>.row>.details>p');
+
 const addItem = (e) => {
     e.preventDefault();
     let text = inp.value;
@@ -94,15 +95,18 @@ _progress = (count, flag) => {
     progressBar.style.width = `${progress}%`
     if (count == flag) {
         h1.innerHTML = 'Todo Done'
+        p1.innerHTML = 'Success is yours, keep going!'
         blaskconfetti()
-    }else{
+    } else {
         h1.innerHTML = 'Todo App'
+        p1.innerHTML = 'keep it up!'
     }
 }
 
 // DayOfWeek
 const daysOfWeek = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
-let day = new Date().getDate()
+let day = new Date().getDay()
+console.log(day);
 today.innerHTML = `Seems it's ${daysOfWeek[day]} 🤗`
 
 
