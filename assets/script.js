@@ -6,7 +6,8 @@ const today = document.getElementsByClassName('today')[0]
 const p = document.querySelector('.number')
 const inp = document.querySelector('.inp')
 const btn = document.querySelector('.btn');
-
+const h1 = document.querySelector('.box>.row>.details>h1');
+ 
 const addItem = (e) => {
     e.preventDefault();
     let text = inp.value;
@@ -86,18 +87,16 @@ _edit = (element) => {
     const parent = element.parentElement.parentElement
     inp.value = parent.querySelector('p').innerText;
     editingItem = parent;
-    console.log(editingItem);
-    console.log(inp.value);
 }
 _progress = (count, flag) => {
-
-    console.log(count);
-    console.log(flag);
     const progress = count / flag * 100
     const progressBar = document.querySelector('.progress')
     progressBar.style.width = `${progress}%`
     if (count == flag) {
+        h1.innerHTML = 'Todo Done'
         blaskconfetti()
+    }else{
+        h1.innerHTML = 'Todo App'
     }
 }
 
