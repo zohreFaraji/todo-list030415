@@ -1,10 +1,10 @@
 # todo-list
 
-![1](https://github.com/zohreFaraji/todo-list030415/assets/165832749/3c215267-50a0-49df-974b-1551fb9754eb)
-![2](https://github.com/zohreFaraji/todo-list030415/assets/165832749/c665b8ff-a039-4197-b618-6555712a9049)
-![6](https://github.com/zohreFaraji/todo-list030415/assets/165832749/cbb9f675-b392-47c8-ac95-4c8c3d90afee)
-![8](https://github.com/zohreFaraji/todo-list030415/assets/165832749/329ff5c5-7160-4830-a86c-f1636e8e0ae5)
-![3](https://github.com/zohreFaraji/todo-list030415/assets/165832749/b0f3af9d-e395-45d0-80e8-f66b10893b18)
+![1](https://github.com/zohreFaraji/todo-list030415/assets/165832749/f358ef3f-c13d-4b04-bde7-a86c710d5817)
+![2](https://github.com/zohreFaraji/todo-list030415/assets/165832749/598c6b01-0edb-42ce-902b-9db859d80175)
+![3](https://github.com/zohreFaraji/todo-list030415/assets/165832749/17856194-447d-4d4a-97e2-47775d1a70ed)
+![4](https://github.com/zohreFaraji/todo-list030415/assets/165832749/14b0abc8-73e7-47f0-8e28-bca05597d652)
+![7](https://github.com/zohreFaraji/todo-list030415/assets/165832749/78dfbb39-67b0-444d-91cc-c2e5fff1f208)
 
 **You can see information about my project**
 - [Demo Project](https://zohrefaraji.github.io/todo-list030415/)
